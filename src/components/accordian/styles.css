@@ -1,0 +1,43 @@
+/* styles.css */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+button {
+    background: rgb(59, 51, 36);
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 600px;
+}
+
+.item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.title, .content {
+    text-align: center;
+    padding: 10px;
+}
+
+.title {
+    background-color: #864d02;
+    cursor: pointer;
+    color: #fff;
+}
+
+.content {
+    background-color: #b88d54;
+    color: #fff;
+}
